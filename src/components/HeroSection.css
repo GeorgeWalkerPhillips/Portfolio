@@ -1,0 +1,136 @@
+.hero-canvas {
+    background-image: linear-gradient(to right, #0a192f, #152235, #24243e);
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+body {
+    cursor: url('./images//MinecraftSword.png'), auto;
+  }
+
+.box {
+    height: 50px;
+    width: 50px;
+}
+
+.hero-container {
+    /* background: url('/images/img-home.jpg') center center/cover no-repeat; */
+    background: transparent;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    object-fit: contain;
+    transition: all 2s ease;
+}
+
+.hero-container-unloaded{
+    background: #0a192f;
+    border-radius: 50%;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+}
+
+.hero-container>h1 {
+    color: #ccd6f6;
+    font-size: 100px;
+}
+
+.hero-container>h2 {
+    margin-top: 8px;
+    color: #ccd6f6;
+    font-size: 32px;
+    font-family: 'SF Mono', 'Fira Code', 'Fira Mono', 'Roboto Mono', monospace;
+}
+
+.hero-container>p {
+    color: aquamarine;
+    font-size: 32px;
+    font-family: 'SF Mono', 'Fira Code', 'Fira Mono', 'Roboto Mono', monospace;
+}
+
+.hero-btns {
+    margin-top: 32px;
+}
+
+.hero-btns .btn {
+    margin: 6px;
+}
+
+.fa-play-circle {
+    margin-left: 4px;
+}
+
+.vertical-line-left {
+    position: fixed;
+    left: 20px;
+    bottom: 0;
+    width: 2px;
+    height: 300px;
+    background-color: aquamarine;
+  }
+
+  .vertical-line-right {
+    position: fixed;
+    right: 20px;
+    bottom: 0;
+    width: 2px;
+    height: 300px;
+    background-color: aquamarine;
+  }
+
+@media screen and (max-width: 960px) {
+    .hero-container>h1 {
+        font-size: 70px;
+        margin-top: -150px;
+        
+    }
+
+    .hero-container>p {
+        font-size: 30px;
+        position: absolute;
+        top: 35%;
+        transform: translateY(-50%);
+    }
+
+        .hero-canvas {
+            width: 50%;
+            height: 50%;
+        }
+}
+
+@media screen and (max-width: 768px) {
+
+    .hero-container>h1 {
+        font-size: 45px;
+        margin-top: -100px;
+    }
+
+    .hero-container>h2 {
+        font-size: 30px;
+    }
+
+    .hero-container>p {
+        font-size: 25px;
+        top: 40%;
+    }
+
+    .btn-mobile {
+        display: block;
+        text-decoration: none;
+    }
+
+    .btn {
+        width: 100%;
+    }
+}

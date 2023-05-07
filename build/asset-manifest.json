@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/MyWebApp/static/css/main.b2684efb.css",
+    "main.js": "/MyWebApp/static/js/main.1cc32baf.js",
+    "static/js/787.28cb0dcd.chunk.js": "/MyWebApp/static/js/787.28cb0dcd.chunk.js",
+    "static/media/stay-retro-124958.mp3": "/MyWebApp/static/media/stay-retro-124958.4c698eee0dd8271ab478.mp3",
+    "static/media/About.jpg": "/MyWebApp/static/media/About.4d5543165d9ebbea373e.jpg",
+    "static/media/Logo.jpg": "/MyWebApp/static/media/Logo.4d5543165d9ebbea373e.jpg",
+    "static/media/GeorgePhillipsCV.pdf": "/MyWebApp/static/media/GeorgePhillipsCV.dfb2fb06c0f27085d917.pdf",
+    "static/media/img3.png": "/MyWebApp/static/media/img3.8d55e4f328f75aa17a4c.png",
+    "static/media/fa-solid-900.ttf": "/MyWebApp/static/media/fa-solid-900.4a2cd718d7031b732e76.ttf",
+    "static/media/fa-brands-400.ttf": "/MyWebApp/static/media/fa-brands-400.150de8eaa454d669c405.ttf",
+    "static/media/fa-solid-900.woff2": "/MyWebApp/static/media/fa-solid-900.bb975c966c37455a1bc3.woff2",
+    "static/media/img1.jpg": "/MyWebApp/static/media/img1.90fab3bd21b32f48db02.jpg",
+    "static/media/fa-brands-400.woff2": "/MyWebApp/static/media/fa-brands-400.e033a13ee751afc1860c.woff2",
+    "static/media/Badge4.png": "/MyWebApp/static/media/Badge4.25f288d5c95804338183.png",
+    "static/media/fa-regular-400.ttf": "/MyWebApp/static/media/fa-regular-400.d87474231f4192884802.ttf",
+    "static/media/Badge1.png": "/MyWebApp/static/media/Badge1.78ff6f40e3b09ac4a118.png",
+    "static/media/Badge2.png": "/MyWebApp/static/media/Badge2.3973a45a0a5c28282732.png",
+    "static/media/img2.png": "/MyWebApp/static/media/img2.d50371db9f7d83b0a10d.png",
+    "static/media/Badge3.png": "/MyWebApp/static/media/Badge3.d731b9123057c71020df.png",
+    "static/media/fa-regular-400.woff2": "/MyWebApp/static/media/fa-regular-400.3223dc79c1adee56370b.woff2",
+    "static/media/fa-v4compatibility.ttf": "/MyWebApp/static/media/fa-v4compatibility.0e3a648be390bd8cb094.ttf",
+    "static/media/fa-v4compatibility.woff2": "/MyWebApp/static/media/fa-v4compatibility.68577e40f3e70067b5da.woff2",
+    "index.html": "/MyWebApp/index.html",
+    "main.b2684efb.css.map": "/MyWebApp/static/css/main.b2684efb.css.map",
+    "main.1cc32baf.js.map": "/MyWebApp/static/js/main.1cc32baf.js.map",
+    "787.28cb0dcd.chunk.js.map": "/MyWebApp/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b2684efb.css",
+    "static/js/main.1cc32baf.js"
+  ]
+}

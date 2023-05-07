@@ -1,0 +1,298 @@
+.education-section {
+    background: #0a192f;
+    height: 150vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+}
+
+.education-heading {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    justify-content: center;
+    font-size: 32px;
+    color: aquamarine;
+}
+
+.education-heading h2 {
+    margin-top: 10px;
+    align-self: center;
+    color: aquamarine;
+    font-size: 32px;
+    font-family: 'SF Mono', 'Fira Code', 'Fira Mono', 'Roboto Mono', monospace;
+}
+
+ /* Education History Tab*/
+
+.container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 1000px;
+    height: auto;
+    background: transparent;
+    margin: 100px auto 0;
+    word-break: break-all;
+    border: 1px solid aquamarine;
+    font-family: 'SF Mono', 'Fira Code', 'Fira Mono', 'Roboto Mono', monospace;
+    color: #ccd6f6;
+  }
+  
+  .bloc-tabs {
+    display: flex;
+  }
+
+  .tabs { 
+    padding: 15px;
+    text-align: center;
+    color:aquamarine;
+    width: 50%;
+    background: transparent;
+    cursor: pointer;
+    border-bottom: 1px solid aquamarine;
+    box-sizing: content-box;
+    position: relative;
+    outline: none;
+  }
+
+  .tabs:not(:last-child){
+    border-right: 1px solid aquamarine;
+  }
+  
+  .active-tabs  {
+    background: transparent;
+    border-bottom: 1px solid transparent;
+    font-size: 20px;
+  }
+  
+  /* Bar above tabs when tab is active*/
+  .active-tabs::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: calc(100% + 2px);
+    height: 5px;
+    background: aquamarine;
+  }
+  
+  
+  button {
+    border: 20px;
+    color: white;
+
+  }
+
+  .content-tabs {
+    flex-grow : 1;
+  }
+  .content {
+    background: transparent;
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    display: none;
+    align-items: center;
+  }
+  .content h2 {
+    padding: 0px 0 5px 0px;
+  }
+  .content hr {
+    width: 100px;
+    height: 2px;
+    background: #222;
+    margin-bottom: 5px;
+  }
+  .content p {
+    width: 100%;
+    height: 100%;
+  }
+  .active-content {
+    display: block;
+  }
+
+  .skills {
+      flex-direction: column;
+      max-width: 700px;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .skills h3 {
+    text-align: center;
+  }
+
+  .skills-text {
+      font-size: 12px;
+      line-height: 1.5;
+      color: #ccd6f6;
+      margin-left: 0px;
+      max-width: 600px;
+  }
+
+  .skills ul {
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+  }
+  
+  .skills li {
+      margin: 10px;
+      padding: 10px 20px;
+      border: 0.3px solid aquamarine;
+      border-radius: 0px;
+      font-size: 13px;
+      color: #ccd6f6;
+      text-align: center;
+  }
+
+    .education-skills {
+      margin: 30px;
+      max-width: 800px;
+      align-content: center;
+      justify-content: center;
+
+    }
+  
+    .education-skills-text {
+      font-size: 12px;
+      line-height: 1.5;
+      color: #ccd6f6;
+      margin-left: 0px;
+      max-width: 600px;
+    }
+
+    .education-skills h3 {
+      justify-content: center;
+      text-align: center;
+    }
+  
+    .education-skills ul {
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+    .education-skills li {
+      margin: 10px;
+      padding: 10px 20px;
+      border: 0.3px solid aquamarine;
+      border-radius: 0px;
+      font-size: 13px;
+      color: #ccd6f6;
+    }
+
+    
+    .international-container {
+      align-items: center;
+      justify-content: center;
+      margin-top: 70px;
+      align-self: center;
+      color: #ccd6f6;
+      font-size: 18px;
+      font-family: 'SF Mono', 'Fira Code', 'Fira Mono', 'Roboto Mono', monospace;
+    }
+
+    .international-container h2 {
+      text-align: center;
+    }
+
+    .badge-container {
+      padding-top: 25px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+
+    }
+
+        .badge-container button {
+          background: transparent;
+        }
+                .badge-container button:hover {
+                  background: transparent;
+                }
+    
+    .badge {
+      background-color: transparent;
+      height: 100px;
+      width: 100px;
+      margin: 0 50px;
+      padding: 20px;
+      transition: all 0.5s ease;
+    }
+
+    .badge:hover {
+      filter:drop-shadow(20px);
+      height: 105px;
+      width: 105px;
+    }
+
+    .active-badge {
+        width: 140px;
+        height: 140px;
+      }
+
+            .active-badge:hover {
+              width: 140px;
+              height: 140px;
+            }
+
+  @media (max-width: 1500px) {
+    .container {
+          width: 70%;
+          height: fit-content;
+    }
+  }
+
+  @media (max-width: 760px) {
+    .container {
+      width: 80%;
+      height: fit-content;
+    }
+
+    .education-section {
+      height: fit-content;
+    }
+
+    .international-container {
+      width: 400px;
+    }
+
+    .international-container h2 {
+      font-size: 18px;
+      
+    }
+    
+    .badge-container {
+        margin-left: 100px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        max-width: 25%;
+        width: fit-content;
+    }
+    
+    .badge {
+      height: 100px;
+      width: 100px;
+    }
+  
+    .badge:hover {
+      height: 120px;
+      width: 120px;
+    }
+
+    .education-heading h2 {
+      font-size: 23px;
+    }
+  }

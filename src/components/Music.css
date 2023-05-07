@@ -1,0 +1,13 @@
+audio {
+    background-color: transparent;
+  }
+  
+  audio::-webkit-media-controls-play-button {
+    display: block;
+    background-color: #fff; /* Set the color of the play button */
+    height: 40px; /* Set the height of the play button */
+    width: 40px; /* Set the width of the play button */
+    border-radius: 50%; /* Make the play button circular */
+  }
+
+  
